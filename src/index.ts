@@ -1,4 +1,4 @@
-/**
- * Some code reproducing a bug.
- */
-export const bug = 123;
+export interface ObjectWithIndexSignature {
+  /** Looking for this JSDoc comment in the output JSON. */
+  [x: string]: any;
+}
